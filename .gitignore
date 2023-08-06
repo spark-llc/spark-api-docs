@@ -1,3 +1,5 @@
 node_modules
 semantic-api.d.ts
 .vitepress/dist
+
+.vercel
