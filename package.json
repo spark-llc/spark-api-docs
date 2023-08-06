@@ -12,6 +12,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "vitepress": {
+    "dest": "dist"
+  },
   "devDependencies": {
     "gh-pages": "^5.0.0",
     "vitepress": "1.0.0-beta.5"
