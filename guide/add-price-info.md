@@ -1,8 +1,12 @@
-# Add Availability Info
+# Add Price Info
 This method allows adding price information for a specific socket
 
-## <span style="color:#10b981">POST</span> `/availabilityInfo`
+## <span style="color:#10b981">POST</span> `/priceInfo`
 This method allows to add price information that will be applied from the specified date of the given socket id.
+
+::: warning
+The next day's price information can be sent until 17:00 at the latest. The price information to be sent after 17:00 will not be valid for the next day.
+:::
 
 ### Parameters
 | key          | type         |
@@ -11,10 +15,6 @@ This method allows to add price information that will be applied from the specif
 | socketNumber | string       |
 | price        | string       |
 | date         | Time         |
-
-::: warning
-The next day's price information can be sent until 17:00 at the latest. The price information to be sent after 17:00 will not be valid for the next day.
-:::
 
 ### Sample Request
 ```
@@ -38,4 +38,4 @@ The next day's price information can be sent until 17:00 at the latest. The pric
 }
 ```
 
-Here, the unique number of the row of the transaction, **id** should be seen. This id number will be used as id parameter in findPriceInfo, updatePriceInfo and deletePriceInfo methods.
+Here, the unique number of the row of the transaction, **id** should be seen. This id number will be used as id parameter in [`findPriceInfo`](/guide/find-price-info), [`updatePriceInfo`](/guide/update-price-info) and [`deletePriceInfo`](/guide/delete-price-info) methods.

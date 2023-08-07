@@ -71,7 +71,11 @@ function sidebarGuide() {
         { text: 'Find Availability Info ', link: '/guide/find-availability-info' },
         { text: 'Delete Availability Info ', link: '/guide/delete-availability-info' },
         { text: 'Update Availability Info ', link: '/guide/update-availability-info' },
-        { text: 'Add Price Info ', link: '/guide/add-price-info' }
+        { text: 'Add Price Info ', link: '/guide/add-price-info' },
+        { text: 'List Price Info ', link: '/guide/list-price-info' },
+        { text: 'Find Price Info ', link: '/guide/find-price-info' },
+        { text: 'Delete Price Info ', link: '/guide/delete-price-info' },
+        { text: 'Update Price Info ', link: '/guide/update-price-info' }
       ]
     },
     {

@@ -44,4 +44,4 @@ If the usage status of other socket(s) is affected due to the reservation status
 }
 ```
 
-Here, the unique number of the row of the transaction, **id** should be seen. This id number will be used as id parameter in findAvailabilityInfo, updateAvailabilityInfo and deleteAvailabilityInfo methods.
+Here, the unique number of the row of the transaction, **id** should be seen. This id number will be used as id parameter in [`findAvailabilityInfo`](/guide/find-availability-info), [`updateAvailabilityInfo`](/guide/update-availability-info) and [`deleteAvailabilityInfo`](/guide/delete-availability-info) methods.
